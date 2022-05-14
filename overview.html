@@ -1,0 +1,220 @@
+---
+permalink: /overview
+title: Overview
+layout: default
+---
+
+<section class="hero is-primary is-medium summaryheader">
+  <div class="hero-body has-text-centered">
+
+    <div class="container">
+      <div class="box page-title">
+        <h1 class="title is-2 has-text-weight-bold has-text-black">{{page.title}}</h1>
+        <h2 class="subtitle has-text-black">MPS5101 Drug Website</h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-foot">
+    <nav class="tabs is-boxed is-fullwidth">
+      <div class="container">
+        <ul class="has-background-primary">
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li class="is-active">
+            <a href="overview.html">Overview</a>
+          </li>
+          <li>
+            <a href="disease.html">Disease and Target</a>
+          </li>
+          <li>
+            <a href="hit.html">Hit to Lead</a>
+          </li>
+          <li>
+            <a href="formulation.html">Formulation</a>
+          </li>
+          <li>
+            <a href="sustainability.html">Sustainability</a>
+          </li>
+          <li>
+            <a href="future.html">Next Steps</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+</section>
+
+<section class="section">
+  <div class="container">
+
+    <div class="has-text-centered">
+      <h1 class="title is-1">Newloserine</h1>
+      <p class="subtitle">A new therapeutic for Schizophrenia.</p>
+      <p>Newloserine has been developed to treat Schizophrenia by increasing the activity of the gluataminergic NMDA receptors, whose functioning is believed to be impaired in the disease.</p>
+    </div>
+
+  </div>
+</section>
+
+<section class="section has-background-primary-light">
+  <div class="container has-text-centered">
+
+    <h3 class="title is-3 pb-2">Structure</h3>
+
+    <div class="is-flex is-flex-wrap-wrap is-align-items-center is-justify-content-center is-align-content-center is-flex-shrink-1">
+      <div class="m-2 is-flex-shrink-1">
+
+        <div class="card">
+          <div class="card-image">
+            <figure class="is-4by3">
+              <img src="assets/images/Newloserine.png" alt="2D Structure of Newloserine">
+            </figure>
+          </div>
+          <div class="card-content has-background-primary">
+            <div class="content">
+              <p class="is-2 has-text-weight-bold has-text-white">2D Structure</p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div class="m-2 has-text-centered is-flex-shrink-1">
+
+        <div class="card">
+          <div class="card-image">
+            <canvas id="molecule" width="526" height="545" ></canvas>
+          </div>
+          <div class="card-content has-background-primary">
+            <div class="content">
+              <p class="is-2 has-text-weight-bold has-text-white">3D Structure (Draggable)</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+
+    <h3 class="title is-3 pb-2 has-text-centered">Properties</h3>
+
+    <div class="is-flex is-flex-wrap-wrap is-align-items-baseline is-justify-content-center is-align-content-center">
+
+      <div class="card m-2">
+        <div class="card-header has-background-primary">
+          <p class="card-header-title has-text-white">Chemical Properties</p>
+        </div>
+        <div class="card-content table-container">
+
+          <table class="table is-hoverable">
+            <thead>
+              <tr>
+                <th>Property</th>
+                <th>Value</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>LogP</th>
+                <td>1.48</td>
+              </tr>
+              <tr>
+                <th>Molecular Weight</th>
+                <td>215.29</td>
+              </tr>
+              <tr>
+                <th>Hydrogen Donors</th>
+                <td>2</td>
+              </tr>
+              <tr>
+                <th>Hydrogen Acceptors</th>
+                <td>2</td>
+              </tr>
+              <tr>
+                <th>Rotatable Bonds</th>
+                <td>0</td>
+              </tr>
+              <tr>
+                <th>Solubility</th>
+                <td>538mg/ml</td>
+              </tr>
+
+            </tbody>
+          </table>
+
+        </div>
+      </div>
+
+      <div class="card m-2">
+        <div class="card-header has-background-primary">
+          <p class="card-header-title has-text-white">ADME Properties</p>
+        </div>
+        <div class="card-content table-container">
+
+          <table class="table is-hoverable">
+            <thead>
+              <tr>
+                <th>Property</th>
+                <th>Value</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>Caco-2</th>
+                <td>P<sub>e</sub> = 56 x 10<sup>-6</sup> cm/s</td>
+              </tr>
+              <tr>
+                <th>PPB</th>
+                <td>35%</td>
+              </tr>
+              <tr>
+                <th>CNS</th>
+                <td>Score = -2.24</td>
+              </tr>
+              <tr>
+                <th>HIA</th>
+                <td>100%</td>
+              </tr>
+              <tr>
+                <th>Metabolic Safety</th>
+                <td>0.43</td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+  </div>
+</section>
+
+<link rel="stylesheet" href="assets/ChemDoodleWeb.css" type="text/css">
+<script type="text/javascript" src="assets/ChemDoodleWeb.js"></script>
+
+<script type="text/javascript">
+
+ChemDoodle.io.file.content('assets/newloserine.xyz', function(fileContent) {
+    let mol = ChemDoodle.readXYZ(fileContent);
+    let molCanvas = new ChemDoodle.TransformCanvas3D("molecule", 545, 526);
+    molCanvas.styles.set3DRepresentation('Stick');
+    molCanvas.styles.atoms_resolution_3D = 100;
+    //molCanvas.styles.set3DRepresentation('Ball and Stick');
+    //molCanvas.styles.set3DRepresentation('van der Waals Spheres');
+    molCanvas.loadMolecule(mol);
+
+  });
+</script>

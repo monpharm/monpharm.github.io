@@ -1,0 +1,107 @@
+.indexheader {
+  background-image: url("/assets/images/medicine-bg.svg");
+  background-size: contain;
+}
+
+.summaryheader {
+  background-image: url("/assets/images/summary-bg.svg");
+  background-size: contain;
+}
+
+.diseaseheader {
+  background-image: url("/assets/images/disease-bg.svg");
+  background-size: contain;
+}
+
+.hitheader {
+  background-image: url("/assets/images/research-bg.svg");
+  background-size: contain;
+}
+
+.formulationheader {
+  background-image: url("/assets/images/formulation-bg.svg");
+  background-size: contain;
+}
+
+.sustainabilityheader {
+  background-image: url("/assets/images/sustainability-bg.svg");
+  background-size: contain;
+}
+
+.futureheader {
+  background-image: url("/assets/images/future-bg.svg");
+  background-size: contain;
+}
+
+#molecule {
+  cursor: grab;
+}
+
+.page-title {
+  border-top: 1rem solid #560d80;
+}
+
+.index-tab {
+  background-color: #ffffff;
+  border-top: 0.5rem solid #6547B7;
+  border-radius: 6px;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,0.1),0 0px 0 1px rgba(10,10,10,0.02);
+  color: #4a4a4a;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.index-tab div {
+  transition: 0.4s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.25rem;
+}
+
+.index-tab div:hover {
+  background-color: #4a4a4a40;
+  color: #2d2d2d;
+}
+
+.smol-container {
+  width: 50%
+}
+
+.pill-container {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 6px;
+  padding: 1rem;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,0.1),0 0px 0 1px rgba(10,10,10,0.02);
+  margin: 1rem 0rem;
+  align-items: center;
+  background-color: #5e2b97;
+  column-gap: 1rem;
+}
+
+.pill-container .content-div {
+  width: 60%;
+  padding: 1rem;
+  border-radius: 6px;
+  text-align: center;
+  flex-shrink: 1;
+  flex-grow: 1;
+  background-color: white;
+}
+
+.pill-container .image-div {
+  background-color: #5e2b97;
+  /* width: 40%; */
+  /* border-radius: 0 6px 6px 0; */
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+
+.pill-container img {
+  border-radius: 6px;
+  max-height: 300px;
+}

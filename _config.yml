@@ -1,0 +1,10 @@
+title: MPS5101 Drug Website
+description:
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+sass:
+  style: compressed
+# Build settings
+plugins:
+  - jekyll-feed

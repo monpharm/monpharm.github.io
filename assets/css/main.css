@@ -1,3 +1,24 @@
+a {
+  color: #6547B7;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #5e2b97;
+}
+
+.border-top-primary {
+  border-top: 1rem solid #5e2b97;
+}
+
+.border-left-primary {
+  border-left: 1rem solid #5e2b97;
+}
+
+.border-right-primary {
+  border-right: 1rem solid #5e2b97;
+}
+
 .indexheader {
   background-image: url("/assets/images/medicine-bg.svg");
   background-size: contain;

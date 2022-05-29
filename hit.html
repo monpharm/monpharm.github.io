@@ -2,6 +2,7 @@
 permalink: /hit
 title: Hit to Lead Process
 layout: default
+references: hitrefs
 ---
 
 <section class="hero is-primary is-medium hitheader">
@@ -50,7 +51,7 @@ layout: default
 <section class="section has-background-white-bis">
   <div class="container">
 
-    <div class="box has-text-centered">
+    <div class="box has-text-centered border-top-primary">
       <p class="title">Overview</p>
       <p>In order to develop a drug that interacts with our target, there is a need to go through the hit discovery process. During this process, there were two molecules that were identified as hits. However, Newloserine was ultimately selected to move forward as the lead compound as there would be a risk of carrying over the toxicity from the other compound.</p>
     </div>
@@ -81,11 +82,11 @@ layout: default
 
     </div> -->
 
-    <div class="box">
+    <div class="box border-right-primary">
       <div class="columns is-vcentered">
         <div class="column has-text-right">
           <p class="title">Hit Discovery - D-cycloserine</p>
-          <p>The parent molecule for NEWLOSERINE is D-cycloserine, which is shown on the right. D-cycloserine was discovered through serindipity when scientists were doing research on the bacterium streptomyces, which is present in soil (11). In 1988, it was discovered that D-cycloserine is a partial agonist to the NMDA receptor that interacts with the glycine-binding site of the receptor (12). The parent molecule was also used as an antibiotic treatment for tuberculosis (13).</p>
+          <p>The parent molecule for NEWLOSERINE is D-cycloserine, which is shown on the right. D-cycloserine was discovered through serindipity when scientists were doing research on the bacterium streptomyces, which is present in soil <a href="#1">(1)</a>. In 1988, it was discovered that D-cycloserine is a partial agonist to the NMDA receptor that interacts with the glycine-binding site of the receptor <a href="#2">(2)</a>. The parent molecule was also used as an antibiotic treatment for tuberculosis <a href="#3">(3)</a>.</p>
         </div>
 
         <div class="column is-two-fifths">
@@ -96,7 +97,7 @@ layout: default
       </div>
     </div>
 
-    <div class="box">
+    <div class="box border-left-primary">
       <div class="columns is-vcentered">
         <div class="column is-two-fifths">
           <figure class="image">
@@ -105,11 +106,13 @@ layout: default
         </div>
 
         <div class="column is-primary">
-          <p class="title">Hit Discovery - D-cycloserine</p>
-          <p>Two cyclopentane and one cyclopentadiene is added to the parent compound D-cycloserine. This has significantly improved the Log P from -1.83 to 1.48. This improvement has brought the Log P to an optimal range compared to D-cycloserine, which was too hydrophilic as indicated with the negative Log P. The modified structure would be as shown on the right. This modification also has improved penetration to the central nervous system (CNS)(14) and crossed the blood-brain barrier which is crucial for antipsychotics to treat schizophrenia. The molecular weight for the modified D-cycloserine also obeys by Lipinski’s rule of five (15), which would be optimal for oral administration.</p>
+          <p class="title">Lead Optimisation - D-cycloserine</p>
+          <p>Two cyclopentane and one cyclopentadiene is added to the parent compound D-cycloserine. This has significantly improved the Log P from -1.83 to 1.48. This improvement has brought the Log P to an optimal range compared to D-cycloserine, which was too hydrophilic as indicated with the negative Log P. The modified structure would be as shown on the right. This modification also has improved penetration to the central nervous system (CNS) <a href="#4">(4)</a> and crossed the blood-brain barrier which is crucial for antipsychotics to treat schizophrenia. The molecular weight for the modified D-cycloserine also obeys by Lipinski’s rule of five <a href="#5">(5)</a>, which would be optimal for oral administration.</p>
         </div>
       </div>
     </div>
 
   </div>
 </section>
+
+{% include references.html %}

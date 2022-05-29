@@ -1,0 +1,10 @@
+<footer class="footer has-background-primary-light">
+  <div class="container content">
+    <h2 class="title">References</h2>
+    <ol>
+      {% for reference in site.data.[page.references] %}
+      <li id="{{forloop.index}}"><a href="{{reference.link}}">{{reference.text}}</a></li>
+      {% endfor %}
+    </ol>
+  </div>
+</footer>

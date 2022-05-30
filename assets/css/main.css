@@ -105,6 +105,12 @@ a:hover {
   align-content: center;
 }
 
+.center-image {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
 .smol-container {
   width: 50%
 }

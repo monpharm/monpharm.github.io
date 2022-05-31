@@ -7,6 +7,15 @@ a:hover {
   color: #5e2b97;
 }
 
+li {
+  transition: 1s;
+}
+
+li:target {
+  background-color: #ddbfff;
+  background: linear-gradient(to right, rgba(221,191,225,1), rgba(221,191,225,0));
+}
+
 .border-top-primary {
   border-top: 1rem solid #5e2b97;
 }
